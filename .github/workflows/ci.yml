@@ -24,7 +24,7 @@ jobs:
         run: poetry install
 
       - name: Test with pytest
-        run: poetry run pytest tests/ --cov={{ cookiecutter.__package_slug }} --cov-report=xml
+        run: poetry run pytest --cov=./ --cov-report=xml
 
       - name: Use Codecov to track coverage
         uses: codecov/codecov-action@v3
@@ -33,3 +33,12 @@ jobs:
 
       - name: Build documentation
         run: poetry run make html --directory docs/
+
+      - name: Upload coverage to Codecov  
+        uses: codecov/codecov-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          file: ./coverage.xml
+          flags: unittests
+          name: codecov-umbrella
+          fail_ci_if_error: true
