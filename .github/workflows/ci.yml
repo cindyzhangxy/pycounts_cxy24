@@ -5,7 +5,7 @@ on: [push, pull_request]
 jobs:
   ci:
     # Set up operating system
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     # Define job steps
     steps:
