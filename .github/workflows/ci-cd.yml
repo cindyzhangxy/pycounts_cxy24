@@ -72,6 +72,4 @@ jobs:
         if: steps.release.outputs.released == 'true'
         with:
           github_token: ${{ secrets.RELEASE_TOKEN }}
-        if: steps.release.outputs.released == 'true'
-        with:
-          github_token: ${{ secrets.RELEASE_TOKEN }}
+
