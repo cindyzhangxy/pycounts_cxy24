@@ -1,6 +1,6 @@
 # pycounts_cxy24
 [![Documentation Status](https://readthedocs.org/projects/pycounts-cxy24/badge/?version=latest)](https://pycounts-cxy24.readthedocs.io/en/latest/?badge=latest)
-      
+[![codecov](https://codecov.io/gh/cindyzhangxy/pycounts_cxy24/graph/badge.svg?token=BUZJMMYMR8)](https://codecov.io/gh/cindyzhangxy/pycounts_cxy24)    
 
 Calculate word counts in a text file
 
