@@ -1,6 +1,6 @@
 # pycounts_cxy24
-[![codecov](https://codecov.io/gh/cindyzhangxy/pycounts_cxy24/graph/badge.svg?token=BUZJMMYMR8)](https://codecov.io/gh/cindyzhangxy/pycounts_cxy24)[![Documentation Status](https://readthedocs.org/projects/pycounts-cxy24/badge/?version=latest)](https://pycounts-cxy24.readthedocs.io/en/latest/?badge=latest)[![Python 3.12.0](https://img.shields.io/badge/python-3.12.0-purple.svg)](https://www.python.org/downloads/release/python-390/)[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![ci-cd workflow](https://github.com/github/docs/actions/workflows/ci-cd.yml/badge.svg)
+[![codecov](https://codecov.io/gh/cindyzhangxy/pycounts_cxy24/graph/badge.svg?token=BUZJMMYMR8)](https://codecov.io/gh/cindyzhangxy/pycounts_cxy24)[![Documentation Status](https://readthedocs.org/projects/pycounts-cxy24/badge/?version=latest)](https://pycounts-cxy24.readthedocs.io/en/latest/?badge=latest)[![Python 3.12.0](https://img.shields.io/badge/python-3.12.0-purple.svg)](https://www.python.org/downloads/release/python-390/)[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)[[License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)]
+[![ci-cd workflow](https://github.com/github/docs/actions/workflows/ci-cd.yml/badge.svg)]
 
 Calculate word counts in a text file
 
